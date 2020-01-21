@@ -34,8 +34,8 @@ public class FluxTest {
 
 
     @Test
-    public void simpleFlux_fromItterable(){
-        Flux.fromIterable(Arrays.asList("A","B","C"))
+    public void simpleFlux_fromIterable(){
+        Flux.fromIterable(Arrays.asList("Green","Red","Yellow"))
                 .log()
                 .subscribe();
     }
