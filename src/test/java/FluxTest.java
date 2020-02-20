@@ -18,6 +18,8 @@ public class FluxTest {
         this.fluxResult = fluxResult;
     }
 
+
+
     @Test
     public void simpleFlux(){
         Flux.just("A","B","C")
